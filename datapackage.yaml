@@ -8,6 +8,8 @@ licenses:
 sources:
   - title: datagouvfr
     path: https://data.gouv.fr/api/2/datasets/641b456a5374b1bdc9dce4cf/
+  - title: sncf
+    path: https://numerique.sncf.com/startup/api
 version: '20230531'
 resources:
   - name: tr-rm-20230531
