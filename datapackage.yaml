@@ -1,0 +1,580 @@
+name: tr-rm
+title: Liste des trains et bus supprimés par la SNCF
+profile: data-package
+licenses:
+  - name: ODbL
+    path: https://opendatacommons.org/licenses/odbl/
+    title: Open Data Commons Open Database License (ODbL)
+sources:
+  - title: datagouvfr
+    path: https://data.gouv.fr/api/2/datasets/641b456a5374b1bdc9dce4cf/
+version: '20230531'
+resources:
+  - name: tr-rm-20230531
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/0f1ea228-ea6d-42ba-81e8-4dc81df315c0
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230530
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/187f329d-1e98-4f26-bf23-38a9f2ddc28e
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230529
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/3e0f10d4-8cb3-47d6-8f64-37df355c49a6
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230528
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/eb7f5605-1c18-4c22-9488-9538fd2b2009
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230527
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/954e9d5f-22de-4449-a531-7220770d7c5d
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230526
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/7f63728a-efc2-47ce-80d0-0626686931d2
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230525
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/5be25cc2-179d-486c-bbbd-03c64ebac3c9
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230524
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/05590703-e7e1-4591-a6d9-79d46ed31280
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230523
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/3cbe0dc7-a9fa-4983-aaee-a3cd2de1579d
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230522
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/85c607fe-ad21-4868-8d78-be8830cc2dde
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230521
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/7ba7aa7a-d616-44f9-b1ad-f64faa9342ec
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230520
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/479c6fe6-4493-4fe8-8d4a-6cab37e3f4c7
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230519
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/2c9dbdbe-7c6e-4ed2-86f9-60cf498f948c
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230518
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/9e578c7e-b307-49fa-b326-1fd3a12d73e6
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230517
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/9e209f46-5a1b-4354-bcc8-7bfbc2ee3d9f
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230516
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/3e842292-19e8-493a-ba27-2bd375466250
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230515
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/701ff6b3-1ac7-4a43-a752-c801f4d07cca
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230514
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/b988da90-de61-410b-af06-3d917267ddf6
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230513
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/ce5f4250-bda6-4f0e-892a-6903fbfbc64e
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230512
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/433957e8-2235-4246-a58f-830476699bfd
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230511
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/8304e0d1-b2b5-40e3-8785-521c7800a7ed
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230510
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/87027ba6-3b12-4018-94fa-41912a082301
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230509
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/1a92fc32-4f0c-4066-8022-60351cffa92a
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230508
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/912a42dc-ac50-42de-9603-466d9636d148
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230507
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/f4bc5511-9c0a-43f9-938e-f6db23728d86
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230506
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/d6e43c06-4db2-4f83-8356-3f7184b2f7ca
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230505
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/174a448b-9a8e-4887-addd-96e34a0d23db
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230504
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/4f029651-82c9-4202-94e7-a708d7219701
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230503
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/17b0c6be-abe0-47fe-9749-b746748cc779
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230502
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/c0d218b7-f0df-4d7a-a06a-d8cda621fe13
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230501
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/7f63c994-1e8d-4056-96ff-0ad3aef5eff0
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230430
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/b5c1ee8c-2659-43a2-8869-01cfb00df88c
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230429
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/fd853985-bcc8-4a2d-bbce-054ca3ec29d6
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230428
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/61f6ae8c-9dcc-44f2-8b99-4f28703b7f0d
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230427
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/56df63b2-86c0-4fd6-adda-0a9b3d37e9c1
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230426
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/9e200560-3f8c-4e70-ad1d-84c2fa34c41e
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230425
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/20c68a03-becb-4483-8227-2cbe231bbdc6
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230424
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/71afcb21-f545-4329-b70c-e7bbc49c5498
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230423
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/18f629f5-8d64-4c65-9c2f-0f1073f566d0
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230422
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/7be07dae-3101-4331-ae62-971a36821db4
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230421
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/14b918df-9c75-4627-bc55-231751ac7c6e
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230420
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/b094ca11-bb93-481d-9c7e-f519633bafdf
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230419
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/652c2cf0-bd00-4095-817b-ad4da0f14deb
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230418
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/8e636396-8945-425d-babd-f53e95ca0964
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230417
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/8addd6f4-b9b2-4c50-b712-742221f57b2e
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230416
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/5b9ac2f5-22c5-4544-a840-dabc9c3b4d9e
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230415
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/b3414542-a511-4b06-87ec-d3b4e1ef4cb0
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230414
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/b3472b37-afd4-4c51-a136-2076eb42f598
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230413
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/2988d222-ea70-42bf-9e6e-83d2e36f2d90
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230412
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/efcfc47c-fb45-4df1-8c77-696b52bfb2e5
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230411
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/a0ae0af9-5ac6-43e9-8eff-4e087140a66b
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230410
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/c63264b3-1043-435f-9f15-8bf098ed5ef9
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230409
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/3c6d24e9-7dd1-46db-b8ca-ff78c652a54e
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230408
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/85a1069b-4708-4e1c-a9e4-5d8a4af75cc0
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230407
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/76a38977-e04d-46ca-8d70-d6855dd50b5f
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230406
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/e7c54218-4e90-466f-93de-48e64fb4618d
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230405
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/7bf90bb4-ba2f-420d-abbd-10d5277e4d1b
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230404
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/d4d82f24-44f4-4883-a312-0a4a1e3fd214
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230403
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/08688026-7b2a-4294-a3ea-58934e70540e
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230402
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/766e1235-10b6-492b-93af-ecb95412ac2a
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230401
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/ab2107e8-5a59-453e-8017-cb7e33a14ff3
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230331
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/1eba3046-4475-44f5-a7c2-4a2102850251
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230329
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/65763b06-989d-43d5-976a-968348c1fd01
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230330
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/44d6061c-4551-498e-bdc1-ae09b745064f
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230328
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/f7b8033e-14b0-4b0f-877c-b444f6c8b58e
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230327
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/73534549-cf7b-4418-a4b8-a1dae753ca7d
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230326
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/d72a3047-51f2-4d58-8d23-d4bdf0fa4e46
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230325
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/f9ddf866-e233-4899-a6e1-c939d7f86b47
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230324
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/40b97456-e069-40b7-8bc6-5ee0e45a0322
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230323
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/9456ac71-ca5a-4b9c-b2a5-1a588bb2a8bb
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230322
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/17f7150d-33b5-4931-af0d-3b8a3a2cf4a0
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml

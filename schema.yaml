@@ -1,0 +1,15 @@
+fields:
+  - name: departure_date
+    type: date
+  - name: departure
+    type: string
+  - name: arrival
+    type: string
+  - name: departure_time
+    type: datetime
+  - name: arrival_time
+    type: datetime
+  - name: headsign
+    type: string
+  - name: type
+    type: string
