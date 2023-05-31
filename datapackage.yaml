@@ -10,7 +10,7 @@ sources:
     path: https://data.gouv.fr/api/2/datasets/641b456a5374b1bdc9dce4cf/
   - title: sncf
     path: https://numerique.sncf.com/startup/api
-version: '20230531'
+version: '20230601'
 resources:
   - name: tr-rm-20230531
     type: table
@@ -575,6 +575,14 @@ resources:
   - name: tr-rm-20230322
     type: table
     path: https://www.data.gouv.fr/fr/datasets/r/17f7150d-33b5-4931-af0d-3b8a3a2cf4a0
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
+  - name: tr-rm-20230601
+    type: table
+    path: https://www.data.gouv.fr/fr/datasets/r/31cb758d-dda2-46b8-b134-75c51d346cbd
     scheme: https
     format: csv
     mediatype: text/csv
