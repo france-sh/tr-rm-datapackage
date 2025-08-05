@@ -6900,3 +6900,11 @@ resources:
     mediatype: text/csv
     encoding: utf-8
     schema: schema.yaml
+  - name: tr-rm-20250806-incomplete
+    type: table
+    path: https://www.data.gouv.fr/api/1/datasets/r/c767ef74-d06e-4a20-9e48-d3825c5e090c
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
