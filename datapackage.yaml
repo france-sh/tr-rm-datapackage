@@ -6916,3 +6916,11 @@ resources:
     mediatype: text/csv
     encoding: utf-8
     schema: schema.yaml
+  - name: tr-rm-20250808-incomplete
+    type: table
+    path: https://www.data.gouv.fr/api/1/datasets/r/a5198bab-9a80-448e-ade2-f9fee92db753
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
