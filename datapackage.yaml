@@ -7812,3 +7812,11 @@ resources:
     mediatype: text/csv
     encoding: utf-8
     schema: schema.yaml
+  - name: tr-rm-20251128
+    type: table
+    path: https://www.data.gouv.fr/api/1/datasets/r/514022d9-6ebe-4fd3-a200-79c64bb78b5c
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
