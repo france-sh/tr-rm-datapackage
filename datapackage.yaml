@@ -8212,3 +8212,11 @@ resources:
     mediatype: text/csv
     encoding: utf-8
     schema: schema.yaml
+  - name: tr-rm-20260117
+    type: table
+    path: https://www.data.gouv.fr/api/1/datasets/r/43b5dbca-f619-4e86-a17b-68ce6f32efc8
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
