@@ -8316,3 +8316,11 @@ resources:
     mediatype: text/csv
     encoding: utf-8
     schema: schema.yaml
+  - name: tr-rm-20260130
+    type: table
+    path: https://www.data.gouv.fr/api/1/datasets/r/5e5c7bbb-fe70-4bf3-bbcd-0536243e715b
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
