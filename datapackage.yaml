@@ -8916,3 +8916,11 @@ resources:
     mediatype: text/csv
     encoding: utf-8
     schema: schema.yaml
+  - name: tr-rm-20260417
+    type: table
+    path: https://www.data.gouv.fr/api/1/datasets/r/8463767d-efca-468a-8047-a71385fab508
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
