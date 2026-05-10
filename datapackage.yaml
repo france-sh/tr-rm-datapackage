@@ -9092,3 +9092,11 @@ resources:
     mediatype: text/csv
     encoding: utf-8
     schema: schema.yaml
+  - name: tr-rm-20260511
+    type: table
+    path: https://www.data.gouv.fr/api/1/datasets/r/34da6000-dc80-48de-95d2-7a51349bb698
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
