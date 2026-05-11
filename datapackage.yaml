@@ -9100,3 +9100,11 @@ resources:
     mediatype: text/csv
     encoding: utf-8
     schema: schema.yaml
+  - name: tr-rm-20260512
+    type: table
+    path: https://www.data.gouv.fr/api/1/datasets/r/585d2349-6c05-4e9a-bd36-bd0b8042f4a4
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
