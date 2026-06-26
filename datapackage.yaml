@@ -9452,3 +9452,11 @@ resources:
     mediatype: text/csv
     encoding: utf-8
     schema: schema.yaml
+  - name: tr-rm-20260627
+    type: table
+    path: https://www.data.gouv.fr/api/1/datasets/r/8e8ddb62-bbd4-47ee-9d64-ddd18f144355
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
