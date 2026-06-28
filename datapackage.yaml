@@ -9468,3 +9468,11 @@ resources:
     mediatype: text/csv
     encoding: utf-8
     schema: schema.yaml
+  - name: tr-rm-20260629
+    type: table
+    path: https://www.data.gouv.fr/api/1/datasets/r/14a149a6-e45a-4904-8ca8-ae657ecf9bd4
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
