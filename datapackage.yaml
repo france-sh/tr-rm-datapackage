@@ -9628,3 +9628,11 @@ resources:
     mediatype: text/csv
     encoding: utf-8
     schema: schema.yaml
+  - name: tr-rm-20260720
+    type: table
+    path: https://www.data.gouv.fr/api/1/datasets/r/140e1b94-a217-4fa2-962a-b46ffe6e5212
+    scheme: https
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schema.yaml
